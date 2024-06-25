@@ -13,6 +13,8 @@ from keep_alive import keep_alive
 
 load_env()
 
+keep_alive()
+
 intents = discord.Intents.default()
 intents.members = True
 intents.reactions = True
